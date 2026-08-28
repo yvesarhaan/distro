@@ -1,0 +1,21 @@
+# Environment variables / secrets — never commit these
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+
+# Dependencies
+/node_modules
+
+# Next.js build output
+/.next/
+/out/
+
+# Vercel
+/.vercel
+
+# Misc
+.DS_Store
+*.pem
+npm-debug.log*
